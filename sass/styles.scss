@@ -4,21 +4,22 @@ $deals-color: #ade422;
 $music-color: #ff5252;
 $fresh-color: #05DF05;
 $video-color: #ffa724;
-$background-color: #f9f9f9;
+$background-color: #eaeded;
 $font-color: #444;
 $font: amazon ember light;
 $amazon-orange: #FF9900;
-$background-navy      : #222e3e;
-$bgHighlight    : #222e3e;
-$colDefault     : #ffffff;
-$colHighlight   : #ecdbff;
-$dropDown       : true;
+$background-navy: #222e3e;
 
 //mixins
 
 // navbar //
 .navbar{
   background-color: $background-navy;
+  display: flex;
+}
+.menu{
+  display: flex;
+  align-content: flex-start;
   a:link {
     text-decoration: none;
     color: white;
@@ -35,15 +36,25 @@ $dropDown       : true;
     width: 100%;
   }
   ul li{
+    list-style: none;
     float: left;
   }
+  .nav-left{
+    width: 100px;
+  }
+  img{
+    display: block;
+  }
 }
-.brand {
-  font: white;
-  font-family: $font;
+// end nav start hero
+.hero{
+  width: 100%;
 }
-#navbar ul li::after{
-  content: '';
-  display: block;
-  clear: both;
+// end hero start cards
+.container-fluid{
+  background: $background-color;
+}
+.cards{
+  height: 240px;
+  padding: 0, 5.5px;
 }

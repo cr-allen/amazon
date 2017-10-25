@@ -7,10 +7,9 @@
   <meta name="keywords" content="Amazon, Amazon.com, Books, Online Shopping, Book Store, Magazine, Subscription, Music, CDs, DVDs, Videos, Electronics, Video Games, Computers, Cell Phones, Toys, Games, Apparel, Accessories, Shoes, Jewelry, Watches, Office Products, Sports &amp; Outdoors, Sporting Goods, Baby Products, Health, Personal Care, Beauty, Home, Garden, Bed &amp; Bath, Furniture, Tools, Hardware, Vacuums, Outdoor Living, Automotive Parts, Pet Supplies, Broadband, DSL">
   <title>Amazon</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="fonts/Amazon-Ember-Light.ttf">
 </head>
@@ -18,36 +17,69 @@
 <!-- begin navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
     <div id="navbar" class="navbar-collapse collapse">
-      <div class="nav-left"><img src="img/amazon-logo-nav.jpg" alt=""></div>
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-        <li class="nav-item"><a href="">Browsing history</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown show" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account<span class="caret"></span></a>
-          <ul class="nav-link dropdown-toggle">
-            <li><a class="dropdown-item" href="#">Your Account</a></li>
-            <li><a class="dropdown-item" href="#">Your Orders</a></li>
-            <li><a class="dropdown-item" href="#">Your Dash</a></li>
-            <li><a class="dropdown-item" href="#">Your Lists</a></li>
-            <li><a class="dropdown-item" href="#">Your Reccomendations</a></li>
-            <li><a class="dropdown-item" href="#">Your Subscribe and Save Items</a></li>
-            <li><a class="dropdown-item" href="#">Your Memberships and Subscriptions</a></li>
-          </ul>
-        </li><li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Try Prime<span class="caret"></span></a>
-          <ul class="dropdown-menu">"
-            <li><a class="dropdown-item" href="#">Home</a></li>
-            <li><a class="dropdown-item" href="#">About</a></li>
-            <li><a class="dropdown-item" href="#">Contact</a></li>
-            <li><a class="dropdown-item" href="#">Work</a></li>
-          </ul>
-        </li>
-        <li class="nav-item"></li>
-      </ul>
+      <div class="logo-etc">
+        <div class="nav-left"><img src="img/amazon-logo-nav.jpg" alt=""></div>
+        <nav class="navbar navbar-light bg-faded justify-content-between">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <div class="kindle-fire"><img src="img/kindle-fire-ad.jpg" alt=""></div>
+      </div>
+      <div class="menu">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Departments<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Amazon Video</a></li>
+              <li><a class="dropdown-item" href="#">Amazon Music</a></li>
+              <li><a class="dropdown-item" href="#">App Store for Andriod</a></li>
+              <li><a class="dropdown-item" href="#">Echo and Alexa</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="">Browsing history</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown show" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account<span class="caret"></span></a>
+            <ul class="nav-link dropdown-toggle">
+              <li><a class="dropdown-item" href="#">Your Account</a></li>
+              <li><a class="dropdown-item" href="#">Your Orders</a></li>
+              <li><a class="dropdown-item" href="#">Your Dash</a></li>
+              <li><a class="dropdown-item" href="#">Your Lists</a></li>
+              <li><a class="dropdown-item" href="#">Your Reccomendations</a></li>
+              <li><a class="dropdown-item" href="#">Your Subscribe and Save Items</a></li>
+              <li><a class="dropdown-item" href="#">Your Memberships and Subscriptions</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Try Prime<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Home</a></li>
+              <li><a class="dropdown-item" href="#">About</a></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+              <li><a class="dropdown-item" href="#">Work</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="">Cart</a></li>
+        </ul>
+      </div>
     </div><!--/.nav-collapse -->
   </nav>
   <!--end nav bar-->
   <!-- start hero -->
-  <div class="container-fluid"><img src="img/amazon hero.jpg" alt="" class="img-fluid"></div>
+    <div class="container">
+      <img src="img/amazon hero.jpg" alt="" class="hero">
+    </div>
+  <!-- end hero -->
+  <!-- start cards -->
+  <div class="container-fluid">
+    <div class="card-wrapper">
+      <img src="img/prime.jpg" alt="" class="cards">
+      <img src="img/deals.jpg" alt="" class="cards">
+      <img src="img/video.jpg" alt="" class="cards">
+      <img src="img/music.jpg" alt="" class="cards">
+      <img src="img/fresh.jpg" alt="" class="cards">
+      <img src="img/alexa.jpg" alt="" class="cards">
+    </div>
+  </div>
 </body>
 </html>

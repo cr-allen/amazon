@@ -1,26 +1,37 @@
 .navbar {
-  background-color: #222e3e; }
-  .navbar a:link {
+  background-color: #222e3e;
+  display: flex; }
+
+.menu {
+  display: flex;
+  align-content: flex-start; }
+  .menu a:link {
     text-decoration: none;
     color: white; }
-  .navbar a:visited {
+  .menu a:visited {
     text-decoration: none;
     color: white; }
-  .navbar a:hover {
+  .menu a:hover {
     color: #FF9900;
     font-weight: bold; }
-  .navbar ul {
+  .menu ul {
     width: 100%; }
-  .navbar ul li {
+  .menu ul li {
+    list-style: none;
     float: left; }
+  .menu .nav-left {
+    width: 100px; }
+  .menu img {
+    display: block; }
 
-.brand {
-  font: white;
-  font-family: amazon ember light; }
+.hero {
+  width: 100%; }
 
-#navbar ul li::after {
-  content: '';
-  display: block;
-  clear: both; }
+.container-fluid {
+  background: #eaeded; }
+
+.cards {
+  height: 240px;
+  padding: 0, 5.5px; }
 
 /*# sourceMappingURL=styles.css.map */
