@@ -1,0 +1,49 @@
+//variables
+$amazon-color: #82d8e3;
+$deals-color: #ade422;
+$music-color: #ff5252;
+$fresh-color: #05DF05;
+$video-color: #ffa724;
+$background-color: #f9f9f9;
+$font-color: #444;
+$font: amazon ember light;
+$amazon-orange: #FF9900;
+$background-navy      : #222e3e;
+$bgHighlight    : #222e3e;
+$colDefault     : #ffffff;
+$colHighlight   : #ecdbff;
+$dropDown       : true;
+
+//mixins
+
+// navbar //
+.navbar{
+  background-color: $background-navy;
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+  a:visited{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    color: $amazon-orange;
+    font-weight: bold;
+  }
+  ul{
+    width: 100%;
+  }
+  ul li{
+    float: left;
+  }
+}
+.brand {
+  font: white;
+  font-family: $font;
+}
+#navbar ul li::after{
+  content: '';
+  display: block;
+  clear: both;
+}

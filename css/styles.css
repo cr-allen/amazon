@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #222e3e; }
+  .navbar a:link {
+    text-decoration: none;
+    color: white; }
+  .navbar a:visited {
+    text-decoration: none;
+    color: white; }
+  .navbar a:hover {
+    color: #FF9900;
+    font-weight: bold; }
+  .navbar ul {
+    width: 100%; }
+  .navbar ul li {
+    float: left; }
+
+.brand {
+  font: white;
+  font-family: amazon ember light; }
+
+#navbar ul li::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/*# sourceMappingURL=styles.css.map */

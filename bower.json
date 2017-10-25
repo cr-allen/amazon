@@ -1,0 +1,24 @@
+{
+  "name": "play-site",
+  "description": "where I fiddle with stuff",
+  "main": "",
+  "authors": [
+    "cr_allen"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "^3.5.0",
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
