@@ -6,7 +6,7 @@ $fresh-color: #05DF05;
 $video-color: #ffa724;
 $background-color: #eaeded;
 $font-color: #444;
-$font: amazon ember light;
+$font: "Amazon Ember",Arial,sans-serif;
 $amazon-orange: #FF9900;
 $background-navy: #222e3e;
 
@@ -16,6 +16,7 @@ $background-navy: #222e3e;
 .navbar{
   background-color: $background-navy;
   display: flex;
+  position: relative;
 }
 .menu{
   display: flex;
