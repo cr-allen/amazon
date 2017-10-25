@@ -62,11 +62,20 @@ $background-navy: #222e3e;
   height: 240px;
   padding: 10px 5.5px;
 }
-// start carousels and ads
+// start sections and ads
 .explore{
   width: 100%;
   height: 45px;
 }
 .sect img{
   padding: 5px 5.5px;
+}
+.ad-sect{
+  img{
+    width: 50%;
+  }
+}
+// footer
+.footer{
+  background: $background-navy;
 }
