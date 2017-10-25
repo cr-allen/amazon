@@ -2,11 +2,17 @@ The problems with Amazon's current design are many. It is too busy and could eas
 
 Changes:
 ~ added space between elements
+
 ~ streamlined the cards, navbar links/menus, and carouseled item sections
+
 ~ removed the carousel hero
+
 ~ made color coding of categories more consistent across the site
+
 ~ eliminated empty space on right side
+
 ~ changed ad and explore layout
+
 ~ attempted to improve responsiveness on desktop
 # amazon
 # amazon
