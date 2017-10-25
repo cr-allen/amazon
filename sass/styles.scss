@@ -49,12 +49,20 @@ $background-navy: #222e3e;
 // end nav start hero
 .hero{
   width: 100%;
+  background: $background-color;
+  padding-top: 10px;
 }
 // end hero start cards
 .container-fluid{
   background: $background-color;
+  margin: auto;
 }
 .cards{
   height: 240px;
-  padding: 0, 5.5px;
+  padding: 10px 5.5px;
+}
+// start carousels and ads
+.explore{
+  width: 100%;
+  height: 45px;
 }

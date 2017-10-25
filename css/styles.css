@@ -25,13 +25,20 @@
     display: block; }
 
 .hero {
-  width: 100%; }
+  width: 100%;
+  background: #eaeded;
+  padding-top: 10px; }
 
 .container-fluid {
-  background: #eaeded; }
+  background: #eaeded;
+  margin: auto; }
 
 .cards {
   height: 240px;
-  padding: 0, 5.5px; }
+  padding: 10px 5.5px; }
+
+.explore {
+  width: 100%;
+  height: 45px; }
 
 /*# sourceMappingURL=styles.css.map */
