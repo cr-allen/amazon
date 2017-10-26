@@ -1,3 +1,4 @@
+/*:)*/
 .navbar {
   background-color: #222e3e;
   display: flex;
@@ -57,12 +58,44 @@
 
 .sect img {
   padding: 5px 5.5px;
-}
 
-.ad-sect img {
+}
+.ad-sect{
+  padding: 10px 0px; justify-content: center;
+  align-items: center;
+
+}
+.half {
   width: 49.5%;
 }
-
-.footer {
+.full {
+  width: 100%;
+}
+footer {
   background: #222e3e;
+}
+footer ul li{
+  list-style: none;
+}
+footer a:link {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+  color: #FF9900;
+  font-weight: bold;
+}
+footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+.text{
+  color: white;
+}
+.navFooterLinkCol{
+  float: left;
+}
+.navFooterCopyright{
+  text-align: center;
+  display: block;
 }
