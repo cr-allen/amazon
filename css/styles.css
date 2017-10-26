@@ -1,33 +1,68 @@
-/*
-Errno::EACCES: Permission denied @ unlink_internal - .sass-cache/4a991a89f26c873a8371b34feb04ca6514153998/styles.scssc
+.navbar {
+  background-color: #222e3e;
+  display: flex;
+  position: relative;
+}
 
-Backtrace:
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/cache_stores/filesystem.rb:26:in `unlink'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/cache_stores/filesystem.rb:26:in `_retrieve'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/cache_stores/base.rb:63:in `retrieve'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/cache_stores/chain.rb:25:in `block in retrieve'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/cache_stores/chain.rb:24:in `each'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/cache_stores/chain.rb:24:in `each_with_index'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/cache_stores/chain.rb:24:in `retrieve'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/engine.rb:407:in `_to_tree'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::EACCES: Permission denied @ unlink_internal - .sass-cache/4a991a89f26c873a8371b34feb04ca6514153998/styles.scssc"; }
+.menu {
+  display: flex;
+  align-content: flex-start;
+}
+.menu a:link {
+  text-decoration: none;
+  color: white;
+}
+.menu a:visited {
+  text-decoration: none;
+  color: white;
+}
+.menu a:hover {
+  color: #FF9900;
+  font-weight: bold;
+}
+.menu ul {
+  width: 100%;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+.menu .nav-left {
+  width: 100px;
+}
+.menu img {
+  display: block;
+}
+
+.hero {
+  width: 100%;
+  background: #eaeded;
+  padding-top: 10px;
+}
+
+.container-fluid {
+  background: #eaeded;
+  margin: auto;
+}
+
+.cards {
+  height: 240px;
+  padding: 10px 5.5px;
+}
+
+.explore {
+  width: 100%;
+  height: 45px;
+}
+
+.sect img {
+  padding: 5px 5.5px;
+}
+
+.ad-sect img {
+  width: 49.5%;
+}
+
+.footer {
+  background: #222e3e;
+}

@@ -1,4 +1,4 @@
-//variables
+<!-- //variables
 $amazon-color: #82d8e3;
 $deals-color: #ade422;
 $music-color: #ff5252;
@@ -78,4 +78,4 @@ $background-navy: #222e3e;
 // footer
 .footer{
   background: $background-navy;
-}
+} -->
